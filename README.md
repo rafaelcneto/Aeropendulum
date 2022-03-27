@@ -1,4 +1,4 @@
-# Aeropendulum_Didactic_Platform
+# Aeropendulum
 **Aeropendulum-Based Didactic Platform**
 
 This is the archive repository for the technical paper entitled **"An Aeropendulum-Based Didactic Platform for the Learning of Control Engineering"**, authored by **Felipe L. A. Trindade**, **Beatriz R. A. Marques**, **Rafael C. Neto**, **Gustavo M. S. Azevedo**, **Eduardo J. Barbosa** and **Eduardo A. O. Barbosa**.
