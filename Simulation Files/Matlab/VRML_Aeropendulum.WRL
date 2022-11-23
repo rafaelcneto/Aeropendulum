@@ -1,0 +1,114 @@
+#VRML V2.0 utf8
+
+#Created with V-Realm Builder v2.0
+#Integrated Data Systems Inc.
+#www.ids-net.com
+
+
+DEF Motor Transform {
+	translation	0 0.025 0.06
+	rotation	0 0 1  1.5708
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+				ambientIntensity	0.2
+				diffuseColor	0.8 0.0488021 0.0643938
+			}
+
+		}
+
+		geometry	Cylinder {
+			height	0.02
+			radius	0.006
+		}
+
+	}
+}
+Background {
+	groundAngle	[ 0.9, 1.5, 1.57 ]
+	groundColor	[ 0 0.8 0,
+			  0.174249 0.82 0.187362,
+			  0.467223 0.82 0.445801,
+			  0.621997 0.67 0.600279 ]
+	skyAngle	[ 0.1, 1.2, 1.57 ]
+	skyColor	[ 0.76238 0.8 0.1427,
+			  0.277798 0.219779 0.7,
+			  0.222549 0.390234 0.7,
+			  0.60094 0.662637 0.69 ]
+}
+DEF Haste Transform {
+	translation	0 0.15 0.06
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+			}
+
+		}
+
+		geometry	Cylinder {
+			height	0.25
+			radius	0.004
+			side	TRUE
+		}
+
+	}
+}
+Transform {
+	translation	-7.09802e-009 0.15 0.03
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+			}
+
+		}
+
+		geometry	Box {
+			size	0.14 0.3 0.004
+		}
+
+	}
+}
+Viewpoint {
+	position	0 0.2 0.6
+}
+Viewpoint {
+	orientation	0 1 0  1.5708
+	position	0.7 0.2 0.1
+}
+DEF Pot Transform {
+	translation	0 0.275 0.05
+	rotation	1 0 0  1.5708
+	scale	1 1 1
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+				ambientIntensity	0.2
+				diffuseColor	0.107132 0.158392 0.8
+			}
+
+		}
+
+		geometry	Cylinder {
+			height	0.03
+			radius	0.01
+			side	TRUE
+			top	TRUE
+			bottom	TRUE
+		}
+
+	}
+}
+Transform {
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+			}
+
+		}
+
+		geometry	Box {
+			size	0.2 0.004 0.15
+		}
+
+	}
+}
